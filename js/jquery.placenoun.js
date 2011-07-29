@@ -1,5 +1,5 @@
 (function($) {
-    $.fn.placekitten = function() {
+    $.fn.placenoun = function() {
         this.find('img,a,div').each( function(i,element) {
             var w, h;
             switch(element.nodeName) {
@@ -7,7 +7,7 @@
                     w = element.width;
                     h = element.height;
                     if(w&&h) {
-                        var src='http://placekitten.com/'+w+'/'+h;
+                        var src='http://placenoun.com/random/'+w+'/'+h;
                         element.src=src;
                     }
                     break;
@@ -17,7 +17,7 @@
                     if(background.indexOf('url(') > -1) {
                         w = $(element).width();
                         h = $(element).height();
-                        $(element).css("background-image", "url(http://placekitten.com/"+w+"/"+h+")");
+                        $(element).css("background-image", "url(http://placenoun.com/random/"+w+"/"+h+")");
                     }
                     break;
             }

@@ -1,21 +1,14 @@
-# Placekitten jQuery Plugin
+# Placenoun jQuery Plugin
 
-[Placekitten](http://placekitten.com) is a quick and simple service for getting pictures of kittens for use as placeholders in your designs or code.
+[Placenoun](http://placenoun.com) is a quick and simple service for getting pictures of anything for use as placeholders in your designs or code.
 
-This highly useful, long-sought-after plugin allows you to dynamically change any or all of your images to placeholder kittens with just a single line of jQuery magic.
+This highly useful, long-sought-after plugin allows you to dynamically change any or all of your images to random placeholder images with just a single line of jQuery magic.
 
 # Detailed example:
 
-    $('body').placekitten();
-
-# Bookmarklet
-
-A useful Placekitten bookmarklet is now available.  As Github does not appear to allow Javascript links in README files, please visit [this link](http://lsemel.github.com/jquery-placekitten/bookmarklet.html) to get it.
-
-Please note that this bookmarklet is highly experimental and should not be used as part of production code.
-
+    $('body').placenoun();
 
 # History
 
-* 2011-02-27: Initial alpha release.
+* 2011-07-29: Forked form the placekitten jQuery plugin and modified to work with placenoun.
 
